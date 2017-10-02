@@ -3,8 +3,6 @@ node('master') {
    stage('init'){
     sh 'pwd'
     sh 'ls -la'
-    
-    
    }
   
     stage('source'){
